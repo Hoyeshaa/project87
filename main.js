@@ -1,4 +1,4 @@
-var canvas = new fabric.canvas('myCanvas');
+var canvas = new fabric.Canvas('myCanvas');
 
  block_y=1;
  block_x=1;
@@ -31,6 +31,7 @@ console.log(keyPressed);
 
 	if(keyPressed == '82') 
 	{
+		block_x = 100;
 		new_image('rr1.png');
 		console.log("r")
 	}
