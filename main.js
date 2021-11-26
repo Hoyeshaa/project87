@@ -19,7 +19,8 @@ function new_image(get_image)
 			top:block_y,
 			left:block_x
 		});
-	})
+		canvas.add(block_image_object);
+	});
 }
 
 window.addEventListener("keydown", my_keydown);
@@ -31,7 +32,7 @@ console.log(keyPressed);
 
 	if(keyPressed == '82') 
 	{
-		block_x = 100;
+		block_x = 0;
 		new_image('rr1.png');
 		console.log("r")
 	}
